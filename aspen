@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspen Plus Training - Osmania University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #00509e;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background-image: url('chemical_process_background.jpg'); /* Replace with a relevant image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+        }
+
+        .courses, .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aspen Plus Modelling and Simulation Training</h1>
+        <p>Osmania University, Hyderabad</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h2>Learn Aspen Plus Simulation with Experts</h2>
+        <p>Join our specialized training program to master process modeling and simulation.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are committed to providing top-tier Aspen Plus training, designed by professionals at Osmania University. Our courses cover real-world applications in chemical engineering and process optimization.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="courses">
+            <div class="card">
+                <h3>Basic Aspen Plus Training</h3>
+                <p>Learn the fundamentals of Aspen Plus and get started with process simulation.</p>
+            </div>
+            <div class="card">
+                <h3>Advanced Process Simulation</h3>
+                <p>Dive deeper into modeling complex chemical processes using Aspen Plus.</p>
+            </div>
+            <div class="card">
+                <h3>Industry Applications</h3>
+                <p>Apply your Aspen Plus knowledge to solve real-world industry challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Customized Training</h3>
+                <p>We offer tailor-made training programs for students and professionals.</p>
+            </div>
+            <div class="card">
+                <h3>Process Optimization</h3>
+                <p>Expert guidance on optimizing chemical processes for maximum efficiency.</p>
+            </div>
+            <div class="card">
+                <h3>Consulting Services</h3>
+                <p>Leverage our expertise for your process modeling and simulation needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: pranayrs2761@gmail.com</p>
+        <p>Phone: +91 9014341796</p>
+        <p>Address: Osmania University, Hyderabad, India</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Osmania University - Aspen Plus Training</p>
+    </footer>
+</body>
+</html>
